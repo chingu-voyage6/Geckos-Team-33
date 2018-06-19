@@ -1,2 +1,3 @@
 # Geckos-Team-33
-Add-project-description-here | Chingu Voyage-6 | https://chingu.io/
+A Manga Reader
+Chingu Voyage-6 | https://chingu.io/
