@@ -1,12 +1,8 @@
 {
-  "name": "nuxt-tipe-starter",
+  "name": "manga-reader",
   "version": "1.0.1",
-  "description": "Get started with Tipe + Nuxt + Vue",
-  "contributors": [
-    "PatrickJS <patrick@tipe.io>",
-    "Scott Moss <scott@tipe.io>",
-    "Mike Moss <mike@tipe.io>"
-  ],
+  "description": "Manga Reader",
+  "contributors": [],
   "engines": {
     "node": ">=8"
   },
@@ -21,34 +17,34 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/apollo": "^3.0.2",
-    "@nuxtjs/bulma": "^1.1.0",
+    "@nuxtjs/apollo": "^3.0.7",
+    "@nuxtjs/bulma": "^1.2.0",
     "@nuxtjs/font-awesome": "^1.0.3",
     "@tipe/nuxt-apollo-module": "^3.0.1",
-    "apollo-link-context": "^1.0.5",
-    "apollo-link-error": "^1.0.5",
-    "apollo-link-http": "^1.3.3",
-    "graphql": "^0.13.0",
-    "graphql-tag": "^2.7.3",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-error": "^1.1.0",
+    "apollo-link-http": "^1.5.4",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
     "highlight.js": "^9.12.0",
-    "marked": "^0.3.12",
-    "node-fetch": "^2.0.0",
+    "marked": "^0.4.0",
+    "node-fetch": "^2.1.2",
     "normalize.css": "^8.0.0",
-    "nuxt": "^1.0.0",
+    "nuxt": "^1.4.1",
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "dotenv": "^5.0.0",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "less": "^3.0.0",
-    "less-loader": "^4.0.5",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
+    "babel-eslint": "^8.2.5",
+    "dotenv": "^5.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^6.0.7",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "stylus-loader": "^3.0.2"
   }
 }
