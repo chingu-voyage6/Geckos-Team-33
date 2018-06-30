@@ -1,0 +1,15 @@
+query Pages {
+  pages: allPageExamples {
+    headerCtaText
+    mainContent
+    _meta {
+      id
+      name
+    }
+  }
+  tweets: allTweetExamples {
+    message
+    url
+    hashtags
+  }
+}
