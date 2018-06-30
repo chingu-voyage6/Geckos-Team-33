@@ -12,7 +12,7 @@ A clone manga reader app made with Vue, Nuxt, GraphQL, Apollo, Bulma
 * Clone this repo
 * Install dependences
 	* `yarn` or `npm install`
-* Run `yarn dev` or `npm dev`'
+* Run `yarn run dev` or `npm run dev`'
 	* this will start Nuxt dev Universal mode
 
 ## Things to notice
