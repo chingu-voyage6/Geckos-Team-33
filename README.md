@@ -1,3 +1,6 @@
+
+
+
 # Manga Reader
 
 A clone manga reader app made with Vue, Nuxt, GraphQL, Apollo, Bulma
