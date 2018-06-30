@@ -1,0 +1,24 @@
+query Articles {
+  articles: allArticleExamples {
+    title
+    urlSlug
+    body
+    featuredImage {
+      name
+      url
+    }
+    author {
+      ... on AuthorExample {
+        name
+        bio
+      }
+      _meta {
+        id
+      }
+    }
+    _meta {
+      id
+      name
+    }
+  }
+}
